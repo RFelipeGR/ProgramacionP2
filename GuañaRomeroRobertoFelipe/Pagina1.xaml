@@ -6,36 +6,35 @@
     
         <StackLayout Padding="20" Spacing="10">
 
-            <!-- Etiqueta personalizada para Nombre -->
             <Label x:Name="scordova_labelNombre" 
                    Text="Ingrese su nombre:"
                    FontSize="Medium"
                    TextColor="Blue" />
 
-            <!-- Entrada para Nombre -->
+            
             <Entry x:Name="scordova_entryNombre" 
                    Placeholder="Nombre completo"
                    Keyboard="Default" />
 
-            <!-- Etiqueta personalizada para Teléfono -->
+            
             <Label x:Name="scordova_labelTelefono" 
                    Text="Ingrese su número telefónico:"
                    FontSize="Medium"
                    TextColor="Blue" />
 
-            <!-- Entrada para Teléfono -->
+            
             <Entry x:Name="scordova_entryTelefono" 
                    Placeholder="Número telefónico"
                    Keyboard="Telephone" />
 
-            <!-- Botón para realizar la recarga -->
+           
             <Button x:Name="scordova_buttonRecargar" 
                     Text="Realizar Recarga"
                     BackgroundColor="Green"
                     TextColor="White"
                   />
 
-            <!-- Resultado de la última recarga -->
+            
             <Label x:Name="scordova_labelResultado" 
                    Text="Última recarga: No disponible"
                    FontSize="Medium"
