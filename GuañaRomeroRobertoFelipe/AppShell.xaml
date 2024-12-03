@@ -7,9 +7,28 @@
     Shell.FlyoutBehavior="Disabled"
     Title="GuañaRomeroRobertoFelipe">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="INICIO" Icon="dotnet_bot.png">
 
-</Shell>
+
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+                <ShellContent
+            Title="Inicio"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+            </Tab>
+            <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+                <ShellContent
+            Title="Pagina 1"
+            ContentTemplate="{DataTemplate local:Pagina1}"
+            Route="Pagina1" />
+            </Tab>
+            <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+                <ShellContent
+            Title="Pagina 2"
+            ContentTemplate="{DataTemplate local:Pagina2}"
+            Route="Pagina2" />
+            </Tab>
+
+        </FlyoutItem>
+
+    </Shell>

@@ -1,8 +1,8 @@
 namespace GuañaRomeroRobertoFelipe;
 
-public partial class MainPage : ContentPage
+public partial class Pagina2 : ContentPage
 {
-	public MainPage()
+	public Pagina2()
 	{
 		InitializeComponent();
 	}

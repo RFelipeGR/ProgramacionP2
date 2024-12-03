@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuañaRomeroRobertoFelipe.Pagina1"
+             Title="Pagina1">
+    <StackLayout Padding="20">
+        <Label Text="Procesador Intel Core i9-14900K"
+           FontSize="30" 
+           HorizontalOptions="Center" 
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Con el Intel Core i9-14900K, lleva tu experiencia de computación al siguiente nivel. Este procesador ofrece 24 núcleos, velocidades de hasta 6.0 GHz, y un rendimiento optimizado para juegos, creación de contenido y multitarea."
+           FontSize="16"
+           HorizontalOptions="Center" 
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>
