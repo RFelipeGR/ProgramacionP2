@@ -3,10 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GuañaRomeroRobertoFelipe.MainPage"
              Title="MainPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Padding="20" Spacing="10">
+
+        
+        <Label x:Name="rguaña_label1" Text="Nombre" FontSize="Medium" />
+        <Entry x:Name="rguaña_entryNombre" Placeholder="Ingrese su nombre" />
+
+       
+        <Label x:Name="rguaña_label2" Text="Teléfono" FontSize="Medium" />
+        <Entry x:Name="rguaña_entryTelefono" Placeholder="Ingrese su número telefónico" Keyboard="Telephone" />
+
+     
+
+
+  
+        <Label x:Name="rguaña_labelResultado" Text="Última recarga: " FontSize="Medium" />
+
+    </StackLayout>
 </ContentPage>

@@ -3,10 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GuañaRomeroRobertoFelipe.Pagina2"
              Title="Pagina2">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid>
+        <!-- Definimos 2 filas y 2 columnas -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Cuadro 1 (Fila 0, Columna 0) - Color Rojo -->
+        <BoxView Grid.Row="0" Grid.Column="0" Color="White" />
+
+        <!-- Cuadro 2 (Fila 0, Columna 1) - Color Azul -->
+        <BoxView Grid.Row="0" Grid.Column="1" Color="White" />
+
+        <!-- Cuadro 3 (Fila 1, Columna 0) - Color Verde -->
+        <BoxView Grid.Row="1" Grid.Column="0" Color="White" />
+
+        <!-- Cuadro 4 (Fila 1, Columna 1) - Color Amarillo -->
+        <BoxView Grid.Row="1" Grid.Column="1" Color="White" />
+
+        <Label
+        Grid.Row="0" Grid.Column="0"
+        x:Name="NOMBRE1"
+        Text="ROBERTO"
+        
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+
+        <Label
+Grid.Row="0" Grid.Column="1"
+x:Name="NOMBRE2"
+Text="FELIPE"
+
+HorizontalOptions="Center"
+VerticalOptions="Center"/>
+
+        <Label
+Grid.Row="1" Grid.Column="0"
+x:Name="APELLIDO1"
+Text="GUAÑA"
+            TextColor="Red"
+
+HorizontalOptions="Center"
+VerticalOptions="Center"/>
+
+        <Label
+Grid.Row="1" Grid.Column="1"
+x:Name="APELLIDO2"
+Text="ROMERO"
+            TextColor="Red"
+
+HorizontalOptions="Center"
+VerticalOptions="Center"/>
+
+    </Grid>
 </ContentPage>

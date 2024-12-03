@@ -3,15 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GuañaRomeroRobertoFelipe.Pagina1"
              Title="Pagina1">
-    <StackLayout Padding="20">
-        <Label Text="Procesador Intel Core i9-14900K"
-           FontSize="30" 
+    <ScrollView>
+        <StackLayout Padding="20">
+        <Label Text="Ingrese el Numero de Telefono"
+           FontSize="20" 
            HorizontalOptions="Center" 
            VerticalOptions="CenterAndExpand" />
 
-        <Label Text="Con el Intel Core i9-14900K, lleva tu experiencia de computación al siguiente nivel. Este procesador ofrece 24 núcleos, velocidades de hasta 6.0 GHz, y un rendimiento optimizado para juegos, creación de contenido y multitarea."
-           FontSize="16"
+        <Label Text="Ingrese el Nombre de quien realiza la carga"
+           FontSize="22"
            HorizontalOptions="Center" 
            VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
