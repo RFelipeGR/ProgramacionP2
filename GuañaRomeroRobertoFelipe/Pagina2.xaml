@@ -8,11 +8,13 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+           
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            
         </Grid.ColumnDefinitions>
 
         <!-- Cuadro 1 (Fila 0, Columna 0) - Color Rojo -->

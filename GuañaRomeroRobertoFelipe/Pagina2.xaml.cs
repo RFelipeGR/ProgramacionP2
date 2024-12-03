@@ -1,3 +1,4 @@
+
 namespace GuañaRomeroRobertoFelipe;
 
 public partial class Pagina2 : ContentPage
@@ -6,4 +7,6 @@ public partial class Pagina2 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+   
 }

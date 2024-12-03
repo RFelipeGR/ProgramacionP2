@@ -3,17 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GuañaRomeroRobertoFelipe.Pagina1"
              Title="Pagina1">
-    <ScrollView>
-        <StackLayout Padding="20">
-        <Label Text="Ingrese el Numero de Telefono"
-           FontSize="20" 
-           HorizontalOptions="Center" 
-           VerticalOptions="CenterAndExpand" />
+    
+        <StackLayout Padding="20" Spacing="10">
 
-        <Label Text="Ingrese el Nombre de quien realiza la carga"
-           FontSize="22"
-           HorizontalOptions="Center" 
-           VerticalOptions="CenterAndExpand" />
+            <!-- Etiqueta personalizada para Nombre -->
+            <Label x:Name="scordova_labelNombre" 
+                   Text="Ingrese su nombre:"
+                   FontSize="Medium"
+                   TextColor="Blue" />
+
+            <!-- Entrada para Nombre -->
+            <Entry x:Name="scordova_entryNombre" 
+                   Placeholder="Nombre completo"
+                   Keyboard="Default" />
+
+            <!-- Etiqueta personalizada para Teléfono -->
+            <Label x:Name="scordova_labelTelefono" 
+                   Text="Ingrese su número telefónico:"
+                   FontSize="Medium"
+                   TextColor="Blue" />
+
+            <!-- Entrada para Teléfono -->
+            <Entry x:Name="scordova_entryTelefono" 
+                   Placeholder="Número telefónico"
+                   Keyboard="Telephone" />
+
+            <!-- Botón para realizar la recarga -->
+            <Button x:Name="scordova_buttonRecargar" 
+                    Text="Realizar Recarga"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                  />
+
+            <!-- Resultado de la última recarga -->
+            <Label x:Name="scordova_labelResultado" 
+                   Text="Última recarga: No disponible"
+                   FontSize="Medium"
+                   TextColor="Gray"
+                   VerticalOptions="EndAndExpand" />
         </StackLayout>
-    </ScrollView>
 </ContentPage>
+
+
+
+   
+
+
+ 
